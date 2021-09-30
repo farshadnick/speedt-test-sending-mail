@@ -5,17 +5,17 @@ Before Running This Script Please be sure your Following Item is configure :
 
 **1- install **ssmtp** for determing  yout SMTP Server that you want to send email from it 
 **
-**apt-get install ssmtp
+		**apt-get install ssmtp
 **
 **
 SMTP Config for Gmail** would be like this 
 
-echo -n 
-"root=postmaster
-mailhub=smtp.gmail.com:587
-useSTARTTLS=YES
-AuthUser=YOUR_EMAIL@GMAIL.COM
-AuthPass=YOUR_GMAIL_PASSWORD" >> /etc/ssmtp/ssmtp.conf
+		echo -n 
+		"root=postmaster
+		mailhub=smtp.gmail.com:587
+		useSTARTTLS=YES
+		AuthUser=YOUR_EMAIL@GMAIL.COM
+		AuthPass=YOUR_GMAIL_PASSWORD" >> /etc/ssmtp/ssmtp.conf
 
 ****2- **important NOTE :**  You Must Turn on **google less secure apps** Your Gmail Account
 ****
