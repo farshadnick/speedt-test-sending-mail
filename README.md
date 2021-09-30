@@ -3,9 +3,9 @@ Using Speedtest cli and sending result  to Gmail
 
 Before Running This Script Please be sure your Following Item is configure :
 
-**1- install **ssmtp** for determing  yout SMTP Server that you want to send email from it 
-**
-		**apt-get install ssmtp
+1- install ssmtp for determing  yout SMTP Server that you want to send email from it 
+
+		apt-get install ssmtp
 **
 **
 SMTP Config for Gmail** would be like this 
