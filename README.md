@@ -3,8 +3,8 @@ Using Speedtest cli and sending result  to Gmail
 
 Before Running This Script Please be sure your Following Item is configure :
 
-1- install **ssmtp** for determing  yout SMTP Server that you want to send email from it 
-
+**1- install **ssmtp** for determing  yout SMTP Server that you want to send email from it 
+**
 **apt-get install ssmtp
 **
 **
@@ -17,8 +17,8 @@ useSTARTTLS=YES
 AuthUser=YOUR_EMAIL@GMAIL.COM
 AuthPass=YOUR_GMAIL_PASSWORD" >> /etc/ssmtp/ssmtp.conf
 
-2- **important NOTE :**  You Must Turn on **google less secure apps** Your Gmail Account
-
+****2- **important NOTE :**  You Must Turn on **google less secure apps** Your Gmail Account
+****
 Turning on 'less secure apps' settings as mailbox user
 
     Go to your (Google Account).
