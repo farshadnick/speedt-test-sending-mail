@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 MAIL=./email_test.txt
 DATE=$(date '+%Y-%m-%d %H:%M:%S')
 speedtest > speedres
